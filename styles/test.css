@@ -1,0 +1,76 @@
+body{
+    background-color: #02871F;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+}
+.head-title{
+    text-align: center;
+    margin-top: 80px;
+}
+.header-container{
+    background-color:#82AFE1;
+    display: grid;
+    grid-template-columns: 15% 5% 0% auto;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    top: 0;
+    position: fixed;
+    
+}
+.title{
+    display: grid;
+    align-content: center;
+    font-size:x-large;
+}
+.home{
+    display: grid;
+    align-content: center;
+}
+.about{
+    display: grid;
+    align-content: center;
+}
+.logout{
+    display: grid;
+    align-content: center;
+    justify-content: right;
+}
+.logout{
+    margin-right: 5px;
+}
+.left-classroom{
+    display: grid;
+    grid-template-columns: auto;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #8AB384;
+    border-radius: 5px;
+}
+.left-container{
+    display: grid;
+    grid-row: auto;
+    row-gap: 2%;
+    
+}
+.right-container{
+    display: grid;
+    grid-row: auto;
+}
+.classroom{
+    width: 100px;
+    height: 40px;
+    background-color: #82AFE1;
+    border-radius: 5%;
+    border: 5px solid #8AB384;
+    margin: 2%;
+}
+.footer{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+    padding: 5%;
+    gap: 15px;
+}

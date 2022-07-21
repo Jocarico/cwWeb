@@ -3,14 +3,22 @@ body{
     font-family: 'Courier New', Courier, monospace;
     position: relative;
 }
+div:hover{
+    border: 1px solid black;
+}
+.main-header{
+    display: grid;
+    width: 100%;
+    background-color: #02871F;
+    margin-top: 60px;
+}
 .head-title{
     text-align: center;
-    margin-top: 80px;
 }
 .header-container{
     background-color:#82AFE1;
     display: grid;
-    grid-template-columns: 15% 5% 0% auto;
+    grid-template-columns: auto auto auto auto;
     width: 100%;
     height: 60px;
     border-radius: 5px;
@@ -48,28 +56,35 @@ body{
     grid-template-columns: auto auto;
     background-color: #8AB384;
     border-radius: 5px;
+
 }
-.left-container{
-    display: grid;
-    grid-row: auto;
-    row-gap: 2%;
-    
+.first-floor-container > div{
+    border: 1px solid #02871F;
 }
-.right-container{
+.first-floor-container{
     display: grid;
-    grid-row: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;    
+}
+.second-floor-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+.second-floor-container > div{
+    border: 1px solid #02871F;
 }
 .classroom{
     width: 100px;
     height: 40px;
     background-color: #82AFE1;
     border-radius: 5%;
-    border: 5px solid #8AB384;
-    margin: 2%;
+
 }
 .footer{
     display: grid;
     grid-template-rows: auto auto auto;
+    background-color: #02871F;
     text-align: center;
     padding: 5%;
     gap: 15px;

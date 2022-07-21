@@ -1,7 +1,6 @@
-body{
-    background-color: #8AB384;
-}
-.body-grid{
+.header-container{
     display: grid;
-    
+}
+div:hover{
+    border: 1px solid #f1c4f1;
 }

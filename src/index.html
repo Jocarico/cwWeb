@@ -1,50 +1,736 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/index_style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
-    <title>ClassWatch test</title>
-</head>
-<body>
-    <header>
-        <div class="header-container">
-            <div class="title">ClassWatch</div>
-            <div class="home">Home</div>
-            <div class="about">About</div>
-            <div class="logout">Log out</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+    />
+    <title>Navbar</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <div class="ui green inverted segment fixed">
+      <div class="ui inverted secondary menu">
+        <a href="/src/index.html" class="active item"> ClassWatch </a>
+        <a href="/src/reports.html" class="item"> Reports </a>
+        <a href="#floorOne" class="item"> 1st Floor </a>
+        <a href="#floorTwo" class="item"> 2nd Floor </a>
+        <div class="right menu">
+          <a href="/src/login.html" class="ui item"> Logout </a>
         </div>
-    </header>
-    <main>
-        <div class="main-header">
-            <h1 class="head-title">Classrooms from UTCH BIS</h1>
-        </div>
-        <div class="main-container">
-            <div class="first-floor-container">
-                <div class="classroom lab02"></div>
-                <div class="classroom bis01"></div>
-                <div class="classroom bis02"></div>
-                <div class="classroom bis03"></div>
-                <div class="classroom bis04"></div>
-                <div class="classroom bis05"></div>
-                <div class="classroom bis06"></div>
-                <div class="classroom bis07"></div>
-                <div class="classroom bis08"></div>
-                <div class="classroom bis09"></div>
-                <div class="classroom lab01"></div>
+      </div>
+    </div>
+    <h1 class="ui inverted green block header">UTCH BIS CLASSROOMS</h1>
+    <!-- First floor classrooms-->
+    <div class="ui padded grid">
+      <div class="green row">
+        <h3 id="floorOne" class="ui header">First Floor</h3>
+      </div>
+    </div>
+    <div class="ui equal width center aligned padded grid">
+      <div class="teal four wide column">
+        <div class="ui card">
+          <div class="content">
+            <div class="header">CLASSBIS01</div>
+          </div>
+          <div class="content">
+            <h4 class="ui sub header">Classroom</h4>
+            <div class="ui small feed">
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    <!--Temperatura del arduino-->
+                    <p>Temperature: 25° C</p>
+                  </div>
+                </div>
+              </div>
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    <p>Light status: On</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="second-floor-container">
+          </div>
+          <div class="extra content">
+            <button class="ui basic green button">New report</button>
+            <button class="ui basic blue button">See reports</button>
+          </div>
+        </div>
+      </div>
+      <div class="teal four wide column">
+        <div class="ui card">
+          <div class="content">
+            <div class="header">CLASSBIS02</div>
+          </div>
+          <div class="content">
+            <h4 class="ui sub header">Classroom</h4>
+            <div class="ui small feed">
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    <!--Temperatura del arduino-->
+                    <p>Temperature: 26° C</p>
+                  </div>
+                </div>
+              </div>
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    <p>Light status: On</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="extra content">
+            <button class="ui basic green button">New report</button>
+            <button class="ui basic blue button">See reports</button>
+          </div>
+        </div>
+      </div>
+      <div class="teal four wide column">
+        <div class="ui card">
+          <div class="content">
+            <div class="header">CLASSBIS02</div>
+          </div>
+          <div class="content">
+            <h4 class="ui sub header">Classroom</h4>
+            <div class="ui small feed">
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    <!--Temperatura del arduino-->
+                    <p>Temperature: 26° C</p>
+                  </div>
+                </div>
+              </div>
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    <p>Light status: On</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="extra content">
+            <button class="ui basic green button">New report</button>
+            <button class="ui basic blue button">See reports</button>
+          </div>
+        </div>
+      </div>
+      <div class="teal four wide column">
+        <div class="ui card">
+          <div class="content">
+            <div class="header">CLASSBIS02</div>
+          </div>
+          <div class="content">
+            <h4 class="ui sub header">Classroom</h4>
+            <div class="ui small feed">
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    <!--Temperatura del arduino-->
+                    <p>Temperature: 26° C</p>
+                  </div>
+                </div>
+              </div>
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    <p>Light status: On</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="extra content">
+            <button class="ui basic green button">New report</button>
+            <button class="ui basic blue button">See reports</button>
+          </div>
+        </div>
+      </div>
+      <div class="teal four wide column">
+        <div class="ui card">
+          <div class="content">
+            <div class="header">CLASSBIS02</div>
+          </div>
+          <div class="content">
+            <h4 class="ui sub header">Classroom</h4>
+            <div class="ui small feed">
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    <!--Temperatura del arduino-->
+                    <p>Temperature: 26° C</p>
+                  </div>
+                </div>
+              </div>
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    <p>Light status: On</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="extra content">
+            <button class="ui basic green button">New report</button>
+            <button class="ui basic blue button">See reports</button>
+          </div>
+        </div>
+      </div>
+      <div class="teal four wide column">
+        <div class="ui card">
+          <div class="content">
+            <div class="header">CLASSBIS02</div>
+          </div>
+          <div class="content">
+            <h4 class="ui sub header">Classroom</h4>
+            <div class="ui small feed">
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    <!--Temperatura del arduino-->
+                    <p>Temperature: 26° C</p>
+                  </div>
+                </div>
+              </div>
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    <p>Light status: On</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="extra content">
+            <button class="ui basic green button">New report</button>
+            <button class="ui basic blue button">See reports</button>
+          </div>
+        </div>
+      </div>
+      <div class="teal four wide column">
+        <div class="ui card">
+          <div class="content">
+            <div class="header">CLASSBIS02</div>
+          </div>
+          <div class="content">
+            <h4 class="ui sub header">Classroom</h4>
+            <div class="ui small feed">
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    <!--Temperatura del arduino-->
+                    <p>Temperature: 26° C</p>
+                  </div>
+                </div>
+              </div>
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    <p>Light status: On</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="extra content">
+            <button class="ui basic green button">New report</button>
+            <button class="ui basic blue button">See reports</button>
+          </div>
+        </div>
+      </div>
+      <div class="teal four wide column">
+        <div class="ui card">
+          <div class="content">
+            <div class="header">CLASSBIS02</div>
+          </div>
+          <div class="content">
+            <h4 class="ui sub header">Classroom</h4>
+            <div class="ui small feed">
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    <!--Temperatura del arduino-->
+                    <p>Temperature: 26° C</p>
+                  </div>
+                </div>
+              </div>
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    <p>Light status: On</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="extra content">
+            <button class="ui basic green button">New report</button>
+            <button class="ui basic blue button">See reports</button>
+          </div>
+        </div>
+      </div>
+      <div class="teal four wide column">
+        <div class="ui card">
+          <div class="content">
+            <div class="header">CLASSBIS02</div>
+          </div>
+          <div class="content">
+            <h4 class="ui sub header">Classroom</h4>
+            <div class="ui small feed">
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    <!--Temperatura del arduino-->
+                    <p>Temperature: 26° C</p>
+                  </div>
+                </div>
+              </div>
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    <p>Light status: On</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="extra content">
+            <button class="ui basic green button">New report</button>
+            <button class="ui basic blue button">See reports</button>
+          </div>
+        </div>
+      </div>
+      <div class="teal four wide column">
+        <div class="ui card">
+          <div class="content">
+            <div class="header">CLASSBIS02</div>
+          </div>
+          <div class="content">
+            <h4 class="ui sub header">Classroom</h4>
+            <div class="ui small feed">
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    <!--Temperatura del arduino-->
+                    <p>Temperature: 26° C</p>
+                  </div>
+                </div>
+              </div>
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    <p>Light status: On</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="extra content">
+            <button class="ui basic green button">New report</button>
+            <button class="ui basic blue button">See reports</button>
+          </div>
+        </div>
+      </div>
+      <div class="teal four wide column">
+        <div class="ui card">
+            <div class="content">
+                <div class="header">CLASSBIS02</div>
+              </div>
+              <div class="content">
+                <h4 class="ui sub header">Classroom</h4>
+                <div class="ui small feed">
+                  <div class="event">
+                    <div class="content">
+                      <div class="summary">
+                          <!--Temperatura del arduino-->
+                         <p>Temperature: 26° C</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="event">
+                    <div class="content">
+                      <div class="summary">
+                         <p>Light status: On</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="extra content">
+              <button class="ui basic green button">New report</button>
+              <button class="ui basic blue button">See reports</button>
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- Second floor classrooms-->
+    <div class="ui padded grid">
+      <div class="green row">
+        <h3 id="floorTwo" class="ui header">Second Floor</h3>
+      </div>
+    </div>
+    <div class="ui equal width center aligned padded grid">
+        <div class="teal four wide column">
+          <div class="ui card">
+            <div class="content">
+              <div class="header">CLASSBIS01</div>
+            </div>
+            <div class="content">
+              <h4 class="ui sub header">Classroom</h4>
+              <div class="ui small feed">
+                <div class="event">
+                  <div class="content">
+                    <div class="summary">
+                      <!--Temperatura del arduino-->
+                      <p>Temperature: 25° C</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="event">
+                  <div class="content">
+                    <div class="summary">
+                      <p>Light status: On</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="extra content">
+              <button class="ui basic green button">New report</button>
+              <button class="ui basic blue button">See reports</button>
+            </div>
+          </div>
+        </div>
+        <div class="teal four wide column">
+          <div class="ui card">
+            <div class="content">
+              <div class="header">CLASSBIS02</div>
+            </div>
+            <div class="content">
+              <h4 class="ui sub header">Classroom</h4>
+              <div class="ui small feed">
+                <div class="event">
+                  <div class="content">
+                    <div class="summary">
+                      <!--Temperatura del arduino-->
+                      <p>Temperature: 26° C</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="event">
+                  <div class="content">
+                    <div class="summary">
+                      <p>Light status: On</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="extra content">
+              <button class="ui basic green button">New report</button>
+              <button class="ui basic blue button">See reports</button>
+            </div>
+          </div>
+        </div>
+        <div class="teal four wide column">
+          <div class="ui card">
+            <div class="content">
+              <div class="header">CLASSBIS02</div>
+            </div>
+            <div class="content">
+              <h4 class="ui sub header">Classroom</h4>
+              <div class="ui small feed">
+                <div class="event">
+                  <div class="content">
+                    <div class="summary">
+                      <!--Temperatura del arduino-->
+                      <p>Temperature: 26° C</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="event">
+                  <div class="content">
+                    <div class="summary">
+                      <p>Light status: On</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="extra content">
+              <button class="ui basic green button">New report</button>
+              <button class="ui basic blue button">See reports</button>
+            </div>
+          </div>
+        </div>
+        <div class="teal four wide column">
+          <div class="ui card">
+            <div class="content">
+              <div class="header">CLASSBIS02</div>
+            </div>
+            <div class="content">
+              <h4 class="ui sub header">Classroom</h4>
+              <div class="ui small feed">
+                <div class="event">
+                  <div class="content">
+                    <div class="summary">
+                      <!--Temperatura del arduino-->
+                      <p>Temperature: 26° C</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="event">
+                  <div class="content">
+                    <div class="summary">
+                      <p>Light status: On</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="extra content">
+              <button class="ui basic green button">New report</button>
+              <button class="ui basic blue button">See reports</button>
+            </div>
+          </div>
+        </div>
+        <div class="teal four wide column">
+          <div class="ui card">
+            <div class="content">
+              <div class="header">CLASSBIS02</div>
+            </div>
+            <div class="content">
+              <h4 class="ui sub header">Classroom</h4>
+              <div class="ui small feed">
+                <div class="event">
+                  <div class="content">
+                    <div class="summary">
+                      <!--Temperatura del arduino-->
+                      <p>Temperature: 26° C</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="event">
+                  <div class="content">
+                    <div class="summary">
+                      <p>Light status: On</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="extra content">
+              <button class="ui basic green button">New report</button>
+              <button class="ui basic blue button">See reports</button>
+            </div>
+          </div>
+        </div>
+        <div class="teal four wide column">
+          <div class="ui card">
+            <div class="content">
+              <div class="header">CLASSBIS02</div>
+            </div>
+            <div class="content">
+              <h4 class="ui sub header">Classroom</h4>
+              <div class="ui small feed">
+                <div class="event">
+                  <div class="content">
+                    <div class="summary">
+                      <!--Temperatura del arduino-->
+                      <p>Temperature: 26° C</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="event">
+                  <div class="content">
+                    <div class="summary">
+                      <p>Light status: On</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="extra content">
+              <button class="ui basic green button">New report</button>
+              <button class="ui basic blue button">See reports</button>
+            </div>
+          </div>
+        </div>
+        <div class="teal four wide column">
+          <div class="ui card">
+            <div class="content">
+              <div class="header">CLASSBIS02</div>
+            </div>
+            <div class="content">
+              <h4 class="ui sub header">Classroom</h4>
+              <div class="ui small feed">
+                <div class="event">
+                  <div class="content">
+                    <div class="summary">
+                      <!--Temperatura del arduino-->
+                      <p>Temperature: 26° C</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="event">
+                  <div class="content">
+                    <div class="summary">
+                      <p>Light status: On</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="extra content">
+              <button class="ui basic green button">New report</button>
+              <button class="ui basic blue button">See reports</button>
+            </div>
+          </div>
+        </div>
+        <div class="teal four wide column">
+          <div class="ui card">
+            <div class="content">
+              <div class="header">CLASSBIS02</div>
+            </div>
+            <div class="content">
+              <h4 class="ui sub header">Classroom</h4>
+              <div class="ui small feed">
+                <div class="event">
+                  <div class="content">
+                    <div class="summary">
+                      <!--Temperatura del arduino-->
+                      <p>Temperature: 26° C</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="event">
+                  <div class="content">
+                    <div class="summary">
+                      <p>Light status: On</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="extra content">
+              <button class="ui basic green button">New report</button>
+              <button class="ui basic blue button">See reports</button>
+            </div>
+          </div>
+        </div>
+        <div class="teal four wide column">
+          <div class="ui card">
+            <div class="content">
+              <div class="header">CLASSBIS02</div>
+            </div>
+            <div class="content">
+              <h4 class="ui sub header">Classroom</h4>
+              <div class="ui small feed">
+                <div class="event">
+                  <div class="content">
+                    <div class="summary">
+                      <!--Temperatura del arduino-->
+                      <p>Temperature: 26° C</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="event">
+                  <div class="content">
+                    <div class="summary">
+                      <p>Light status: On</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="extra content">
+              <button class="ui basic green button">New report</button>
+              <button class="ui basic blue button">See reports</button>
+            </div>
+          </div>
+        </div>
+        <div class="teal four wide column">
+          <div class="ui card">
+            <div class="content">
+              <div class="header">CLASSBIS02</div>
+            </div>
+            <div class="content">
+              <h4 class="ui sub header">Classroom</h4>
+              <div class="ui small feed">
+                <div class="event">
+                  <div class="content">
+                    <div class="summary">
+                      <!--Temperatura del arduino-->
+                      <p>Temperature: 26° C</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="event">
+                  <div class="content">
+                    <div class="summary">
+                      <p>Light status: On</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="extra content">
+              <button class="ui basic green button">New report</button>
+              <button class="ui basic blue button">See reports</button>
+            </div>
+          </div>
+        </div>
+        <div class="teal four wide column">
+          <div class="ui card">
+              <div class="content">
+                  <div class="header">CLASSBIS02</div>
+                </div>
+                <div class="content">
+                  <h4 class="ui sub header">Classroom</h4>
+                  <div class="ui small feed">
+                    <div class="event">
+                      <div class="content">
+                        <div class="summary">
+                            <!--Temperatura del arduino-->
+                           <p>Temperature: 26° C</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="event">
+                      <div class="content">
+                        <div class="summary">
+                           <p>Light status: On</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="extra content">
+                <button class="ui basic green button">New report</button>
+                <button class="ui basic blue button">See reports</button>
+              </div>
             </div>
         </div>
-    </main>
-    <footer>
-        <div class="footer">
-            <div class="class-watch-footer">Class Watch is a project made by the UTCH BIS students of the IT career</div>
-            <div class="copyright">Copyright 2021-2022 ClassWatch is powered by energy</div>
-            <div class="image-footer"><img src="/img/footerwatch" alt="Watch image"></div>
-        </div>
+      </div>    <footer>
+      <div class="footerwatch">
+        <p>
+          Class Watch is a project made by the UTCH BIS students of the IT
+          career
+        </p>
+        <p>Copyright 2021-2022 ClassWatch is powered by energy</p>
+        <img src="/img/footerwatch" alt="Watch image" />
+      </div>
     </footer>
     <!--
     #02871F
@@ -52,6 +738,11 @@
     #DCF9D7
     #82AFE1
     -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</body>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"
+      integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
 </html>
